@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Anish Singh | Portfolio</title>
+
+<link rel="stylesheet" href="PortfolioWebsite.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- LOADER -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <h1>ANISH</h1>
+
+        <div class="loader-line"></div>
+
+    </div>
+
+</div>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        Portfolio
+    </div>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="#about">About</a>
+        </li>
+
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>
+            Anish Singh
+        </h1>
+
+        <h2 id="typing"></h2>
+
+        <p>
+            Passionate Frontend Developer creating
+            modern, responsive and attractive websites.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <div class="glow-circle"></div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2 data-aos="fade-up">
+        About Me
+    </h2>
+
+    <div class="glass-card" data-aos="zoom-in">
+
+        <p>
+            I am a Computer Science student passionate
+            about Web Development and UI Design.
+            I enjoy building responsive websites
+            using HTML, CSS and JavaScript.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <h2 data-aos="fade-up">
+        Skills
+    </h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card"
+        data-aos="flip-left">
+
+            <i class="fab fa-html5"></i>
+
+            <h3>HTML</h3>
+
+        </div>
+
+        <div class="skill-card"
+        data-aos="flip-left">
+
+            <i class="fab fa-css3-alt"></i>
+
+            <h3>CSS</h3>
+
+        </div>
+
+        <div class="skill-card"
+        data-aos="flip-left">
+
+            <i class="fab fa-js"></i>
+
+            <h3>JavaScript</h3>
+
+        </div>
+
+        <div class="skill-card"
+        data-aos="flip-left">
+
+            <i class="fab fa-react"></i>
+
+            <h3>React</h3>
+
+        </div>
+
+        <div class="skill-card"
+        data-aos="flip-left">
+
+            <i class="fab fa-github"></i>
+
+            <h3>GitHub</h3>
+
+        </div>
+
+        <div class="skill-card"
+        data-aos="flip-left">
+
+            <i class="fas fa-code"></i>
+
+            <h3>C++</h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <h2 data-aos="fade-up">
+        Projects
+    </h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card"
+        data-aos="fade-up">
+
+            <h3>
+                Portfolio Website
+            </h3>
+
+            <p>
+                Modern responsive portfolio website.
+            </p>
+
+        </div>
+
+        <div class="project-card"
+        data-aos="fade-up">
+
+            <h3>
+                To Do App
+            </h3>
+
+            <p>
+                Task management application.
+            </p>
+
+        </div>
+
+        <div class="project-card"
+        data-aos="fade-up">
+
+            <h3>
+                Student Management
+            </h3>
+
+            <p>
+                Student record management system.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <h2 data-aos="fade-up">
+        Contact Me
+    </h2>
+
+    <div class="contact-card"
+    data-aos="zoom-in">
+
+        <input
+        type="text"
+        id="name"
+        placeholder="Your Name">
+
+        <input
+        type="email"
+        id="email"
+        placeholder="Your Email">
+
+        <textarea
+        id="message"
+        placeholder="Your Message">
+        </textarea>
+
+        <button
+        onclick="sendMessage()"
+        class="btn">
+
+            Send Message
+
+        </button>
+
+        <p id="result"></p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h3>
+        Anish Singh
+    </h3>
+
+    <p>
+        Frontend Developer
+    </p>
+
+    <div class="social-links">
+
+        <a href="#">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
